@@ -1,0 +1,176 @@
+header {	
+	margin: 8px 8px; 
+}
+
+#page {
+	width: 760px;
+	padding: 10px;
+	margin: 20px auto;
+	}
+
+body {
+	background-image: url('../images/background.png');
+	/*background-color: #5883a4;*/
+	font-family:Arial, sans-serif;
+	font-size:0.83em;
+	color: #EEEEEE;
+}
+
+h1 ,h2,h3 {
+	text-align: left;	
+}
+
+
+h4 {
+	background-color: #EBEBEB;
+	font-family: "Arial", Arial, sans-serif;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#header {
+	margin-bottom: 40px;
+	margin-top: 40px;
+	}
+
+#title {
+	font-size:3em;
+	font-weight:bold;
+	float: left;
+	margin: 0px;
+}
+
+#slogan {
+	font-size:medium;
+	font-weight:bold;
+	font-style:normal;
+	float: right;
+}
+
+.clear {
+	clear: both;
+	}
+	
+ul#navigation, ul#social{
+	font-family: Arial;
+	text-align: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	width: 100%;
+}
+
+ul#navigation li, ul#social li {
+	display: inline;
+}
+
+#social li a {
+	font-size: 8pt;
+	
+}
+
+#social li a img{
+	margin-right: 5px;
+}
+
+ul li a{
+	padding-right: 10px;
+    }
+
+a:link, a:visited {
+	font-weight: bold;
+	color: #EEEEEE;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover, a:active {
+	color: #96CDCD;
+}
+
+textarea {
+	background-color: #EBEBEB;
+	margin: 10px;
+	font-family: Arial, sans-serif;
+	border: thin groove #000000;
+}
+
+article {
+	background-color: #EBEBEB;
+	color: #000000;
+	padding: 15px;
+	margin-bottom: 20px;
+	font-family: Arial, sans-serif;
+	border: thin groove #000000;
+	}
+
+figure {
+	padding: 5px 5px 20px 5px;
+	background: #fff;
+	float: right;
+	-moz-box-shadow: 3px 6px 8px -4px #9999;
+	-webkit-box-shadow: 3px 6px 8px -4px #999;
+	box-shadow: 3px 6px 8px -4px #999;
+	-moz-transform: rotate(2deg);
+	-o-transform: rotate(2deg);
+	-webkit-transform: rotate(2deg);
+	transform: rotate(2deg);
+	}
+
+figcaption {
+	color: #000000;
+	font-size: small;
+	text-align: center;
+}
+	
+div.project {
+margin-bottom: 20px;
+}
+div.img {/*
+  margin:2px;
+  height:auto;
+  width:auto;
+  text-align:center;*/
+  float:left;
+  width: 250px;
+  }
+  
+div.img img {
+  border: 0.5px solid white;
+  }
+  
+div.img a:hover img {
+  border:0.5px solid #96CDCD;
+  }
+  
+div.desc {
+  text-align:left;
+  font-weight:normal;
+  background-color: #EBEBEB;
+  color: #000000;
+  float: right;
+  border: 0.5px solid black;
+  min-height: 300px;
+  width: 500px;
+  }	
+ 
+ div.desc p, div.desc h3
+ {
+	padding: 4px;
+ }
+  
+footer {
+	background-color: #EBEBEB;
+	color: #000000;
+	opacity: 0.5;
+	text-align: right;
+	border: thin;
+	width: auto;
+	height: auto;
+	}
+	
+	
+	
