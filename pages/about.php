@@ -1,29 +1,3 @@
-<!doctype html>
-<html lang="en"> 
-<head>
-<meta charset="utf-8">
-	<meta http-equiv="content-language" content="en-GB">
-	<meta name="author" content="Simon" >
-	<meta name="Copyright" content="2013 Simon Nicholls"> 
-	<link rel="stylesheet" href="styles/main.css" type="text/css" media="all">
-	<title>Portfolio Website for Simon Nicholls</title>	
-</head>
-
-<body>
-	<div id="page">
-		<div id="header">
-			<h1 id="title">Simon Nicholls</h1>
-			<h2 id="slogan">A Portfolio Hub of an Aspiring Web Developer</h2>
-			<div class="clear"></div>
-		</div>
-	<nav> 
-		<ul id="navigation">
-			<li><a href="index.html" >/Main</a></li>
-			<li><a href="about.html">/About</a></li>
-			<li><a href="projects.html">/Projects</a></li>
-			<li><a href="contact.html">/Contact Me</a></li>
-		</ul>
-	</nav>
 	<article>
 		<h4>About Simon Nicholls; All-Round Geek</h4>
 		<figure>
@@ -64,19 +38,3 @@
 		but I've never let this get to me, If anything i'm actually very good at handling the stress and working through it. 
 		However, the combination of being a developer, geek & working in a bar in Somerset means I've learnt the wonders of Cider. </p>
 	</article>	
-	<br>
-	<aside>
-		<ul id="social">
-			<li><a href="https://twitter.com/Sledge89"><img src="images/twitter.png">Twitter/sledge89</a></li>
-			<li><a href="http://www.last.fm/user/Loney"><img src="images/lastfm.png">Lastfm/loney</a></li>
-			<li><a href="http://uk.linkedin.com/pub/simon-nicholls/21/135/516/"><img src="images/linked.png">Linkedin/Simon Nicholls</a></li>
-		   <li><a href="https://github.com/Loney89"><img src="images/github.png">Github/Loney89</a></li> 
-		</ul>
-	</aside>
-	<br><br>
-	<footer> 
-		Copyrights Simon Nicholls 2013 ©; developed by Simon Nicholls 2012 - 2013
-	</footer>
-</div>
-</body>
-</html>
