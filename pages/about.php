@@ -7,8 +7,8 @@
 			</figcaption>
 		</figure>
 
-		<p>Hi, I'm Simon Nicholls, and if your reading this you're more than likely considering me for a position. This website 
-		was created to show of some of the projects I've been involved in; most of which were in a Academic Environment. You 
+		<p>Hi, I'm Simon Nicholls, and if your reading this you're more than likely considering me for a position, you can view my CV <a href="SimonNicholls-CV-WebDeveloper.pdf"><b><u>here</u></b></a>. 
+		This website was created to show of some of the projects I've been involved in; most of which were in a Academic Environment. You 
 		can find alot of information about those projects section of the site. </p>
 
 		<p>I'm a Graduated BA Business Studies Student and very soon I'll be a MSc Graduate in Information Technology, with 

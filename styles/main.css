@@ -22,7 +22,6 @@ h1 ,h2,h3 {
 
 
 h4 {
-	background-color: #EBEBEB;
 	font-family: "Arial", Arial, sans-serif;
 	text-decoration: underline;
 	font-weight: bold;
@@ -75,6 +74,15 @@ ul#navigation li, ul#social li {
 	margin-right: 5px;
 }
 
+#code {
+	font-family: monospace;
+	border: thin groove #EEEEEE;
+	background-color: #000000;
+	color: #EEEEEE;
+	line-height: 25px;
+	margin: 5px;
+}
+	
 ul li a{
 	padding-right: 10px;
     }
@@ -92,28 +100,31 @@ a:hover, a:active {
 }
 
 textarea {
-	background-color: #EBEBEB;
+	background-color: #BEBEBE;
 	margin: 10px;
 	font-family: Arial, sans-serif;
 	border: thin groove #000000;
 }
 
 article {
-	background-color: #EBEBEB;
+	background-color: #BEBEBE;
 	color: #000000;
 	padding: 15px;
 	margin-bottom: 20px;
 	font-family: Arial, sans-serif;
 	border: thin groove #000000;
+	-moz-box-shadow: 10px 10px 5px #444;
+	-webkit-box-shadow: 10px 10px 5px #444;
+	box-shadow: 10px 10px 5px #444;
 	}
 
 figure {
 	padding: 5px 5px 20px 5px;
 	background: #fff;
 	float: right;
-	-moz-box-shadow: 3px 6px 8px -4px #9999;
-	-webkit-box-shadow: 3px 6px 8px -4px #999;
-	box-shadow: 3px 6px 8px -4px #999;
+	-moz-box-shadow: 3px 6px 8px -4px #777;
+	-webkit-box-shadow: 3px 6px 8px -4px #777;
+	box-shadow: 3px 6px 8px -4px #777;
 	-moz-transform: rotate(2deg);
 	-o-transform: rotate(2deg);
 	-webkit-transform: rotate(2deg);
@@ -149,12 +160,15 @@ div.img a:hover img {
 div.desc {
   text-align:left;
   font-weight:normal;
-  background-color: #EBEBEB;
+  background-color: #BEBEBE;
   color: #000000;
   float: right;
   border: 0.5px solid black;
   min-height: 285px;
   width: 430px;
+	-moz-box-shadow: 10px 10px 5px #444;
+	-webkit-box-shadow: 10px 10px 5px #444;
+	box-shadow: 10px 10px 5px #444;
   }	
  
  div.desc p, div.desc h3
