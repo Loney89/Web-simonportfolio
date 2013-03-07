@@ -2,7 +2,6 @@
 	
 	<div class="project">
 		<div class="img">
-		  <a target="_blank" href="">
 			<img src="images/nine.png" alt="Project Nine" width="300">
 		  </a>
 		</div>
@@ -16,8 +15,7 @@
 	
 	<div class="project">
 		<div class="img">
-		  <a target="_blank" href="">
-			<img src="images/redking.png" alt="Redking" width="300">
+		  	<img src="images/redking.png" alt="Redking" width="300">
 		  </a>
 		</div>
 		<div class="desc">
@@ -30,7 +28,6 @@
 	
 	<div class="project">
 		<div class="img">
-		  <a target="_blank" href="">
 			<img src="images/feder.png" alt="Federation" width="300">
 		  </a>
 		</div>
@@ -45,7 +42,6 @@
 	
 	<div class="project">
 		<div class="img">
-		  <a target="_blank" href="">
 			<img src="images/georgeinn.png" alt="georgeinn" width="300">
 		  </a>
 		</div>
@@ -59,7 +55,6 @@
 	
 	<div class="project">
 		<div class="img">
-		  <a target="_blank" href="">
 			<img src="images/stm.png" alt="stm" width="300">
 		  </a>
 		</div>

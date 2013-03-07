@@ -78,7 +78,7 @@ ul#navigation li, ul#social li {
 	font-family: monospace;
 	border: thin groove #EEEEEE;
 	background-color: #000000;
-	color: #EEEEEE;
+	color: #96CDCD;
 	line-height: 25px;
 	margin: 5px;
 }
@@ -113,9 +113,9 @@ article {
 	margin-bottom: 20px;
 	font-family: Arial, sans-serif;
 	border: thin groove #000000;
-	-moz-box-shadow: 10px 10px 5px #444;
-	-webkit-box-shadow: 10px 10px 5px #444;
-	box-shadow: 10px 10px 5px #444;
+	-moz-box-shadow: 8px 10px 5px #678;
+	-webkit-box-shadow: 8px 10px 5px #678;
+	box-shadow: 8px 10px 5px #678;
 	}
 
 figure {
@@ -146,11 +146,17 @@ div.img {/*
   width:auto;
   text-align:center;*/
   float:left;
+	-moz-box-shadow: 10px 10px 5px #444;
+	-webkit-box-shadow: 10px 10px 5px #444;
+	box-shadow: 10px 10px 5px #444;
   width: 250px;
   }
   
 div.img img {
   border: 0.5px solid white;
+ -moz-box-shadow: 10px 10px 5px #444;
+	-webkit-box-shadow: 10px 10px 5px #444;
+	box-shadow: 10px 10px 5px #444;
   }
   
 div.img a:hover img {
