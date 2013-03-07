@@ -1,1 +1,0 @@
-<div id="footer"><p>Nine &copy; 2012 UWE MSc IT - Software</p></div>
