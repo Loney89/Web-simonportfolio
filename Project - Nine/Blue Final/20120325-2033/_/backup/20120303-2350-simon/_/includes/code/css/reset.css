@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* ----------------- Resetting browser defaults ------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, button,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    background: transparent;
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+ 
+body{
+    background: #e7e7e7;
+    color: #333;
+    font: normal 12px/18px Arial, Helvetica, sans-serif;
+}
+ 
+ol, ul{list-style: none;}
+ 
+ol li, ul li{
+    display: inline;
+    line-height: 0;
+}
+ 
+blockquote, q{quotes: none;}
+ 
+blockquote:before,
+blockquote:after,
+q:before,
+q:after{
+    content: '';
+    content: none;
+}
+ 
+:focus{outline: 0;}
+ 
+/* ----------------- Applying default styles to common XHTML elements ------------------- */
+ 
+a{
+    color:#333;
+	font-weight:bold;
+    text-decoration: none;
+}
+ 
+a:hover, a:focus{
+	text-decoration: none;
+}
+ 
+abbr{
+    border-bottom: 1px dotted;
+    letter-spacing: 0.2em;
+}
+ 
+acronym{
+    border-bottom: 1px solid;
+    letter-spacing: 0.1em;
+}
+ 
+h1, h2, h3, h4, h5, h6{
+    color: #666;
+    font: bold 100%/1.2 Arial, Helvetica, sans-serif;
+    margin: 18px 0;
+}
+ 
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: #666;}
+ 
+h1{font-size: 32px;}
+ 
+h2{font-size: 28px;}
+ 
+h3{font-size: 24px;}
+ 
+h4{font-size: 20px;}
+ 
+h5{font-size: 16px;}
+ 
+h6{
+    font-size: 13px;
+    text-transform: uppercase;
+}
+ 
+p{
+    font-size: 12px;
+    line-height: 18px;
+    margin: 18px 0;
+}
+ 
+pre{
+    font-family: consolas, "Courier New", Courier, monospace;
+    font-size: 14px;
+    line-height: 18px;
+}
+ 
+blockquote{
+    font-size: 12px;
+    font-style: italic;
+    line-height: 18px;
+    margin: 18px 0;
+    padding-top: 6px;
+}
+ 
+blockquote+blockquote{
+    background: none;
+    padding: 0;
+    text-indent: 0;
+}
+ 
+cite{
+    display: block;
+    font-style: normal;
+    line-height: 18px;
+    margin: 18px 0;
+    text-align: right;
+}
+ 
+cite strong{display: block;}
+ 
+strong,
+b{font-weight: bold;}
+ 
+em,
+i{font-style: italic;}
+ 
+del,
+strike{text-decoration: line-through;}
+ 
+small{font-size: .8em;}
+ 
+big{font-size: 1.2em;}
+ 
+code{
+    font-family: consolas, "Courier New", Courier, monospace;
+    padding: 2px 4px;
+}
+ 
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+    background: #e7e7e7;
+    border: 1px solid #dbdbdb;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0;
+    padding: 8px 10px 7px;
+}
+ 
+input[type="text"], input[type="tel"], input[type="email"]{
+    color: #666666;
+    font: normal 12px/1 Arial, Helvetica, sans-serif;
+}
+ 
+input[type="password"]{
+    color: #666666;
+    font: normal 12px/1 "Courier New", Courier, monospace;
+}
+ 
+textarea{
+    color: #666666;
+    font: normal 12px/18px Arial, Helvetica, sans-serif;
+    overflow: auto;
+}
+ 
+input[type="text"]:focus,
+input[type="text"]:hover,
+input[type="tel"]:focus,
+input[type="tel"]:hover,
+input[type="email"]:focus,
+input[type="email"]:hover,
+input[type="password"]:focus,
+input[type="password"]:hover,
+textarea:focus,
+textarea:hover{
+    background-color: #dedede;
+    border-color: #bbbbbb;
+}
+ 
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"]{
+    background: #fcfcfc;
+    border: 1px solid #b6b6b6;
+    color: #7c7c7c;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    height: 32px;
+    line-height: 12px;
+    padding: 0 20px 3px 20px;
+}
+ 
+button:focus,
+button:hover,
+input[type="submit"]:focus,
+input[type="submit"]:hover,
+input[type="button"]:focus,
+input[type="button"]:hover,
+input[type="reset"]:focus,
+input[type="reset"]:hover{
+    background-color: #b6b6b6;
+    color: #fff;
+}
+ 
+hr{
+    background: #cdcdcd;
+    border: none;
+    border-bottom: 1px solid #f6f6f6;
+    border-top: 1px solid #f6f6f6;
+    display: block;
+    padding-top: 1px; /* Chrome having trouble with height larger than 1px*/
+    height: 0;
+    margin: 18px 0;
+}
+ 
+/* tables still need 'cellspacing="0"' in the XHTML markup */
+table{
+    border: 1px solid #cecece;
+    border-right: none;
+    border-top: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ 
+table caption{
+    caption-side: top;
+    font-style: italic;
+    padding: 2px;
+    text-align: right;
+}
+ 
+td,
+th{
+    border: 1px solid #cecece;
+    border-bottom: none;
+    border-left: none;
+    padding: 4px;
+}

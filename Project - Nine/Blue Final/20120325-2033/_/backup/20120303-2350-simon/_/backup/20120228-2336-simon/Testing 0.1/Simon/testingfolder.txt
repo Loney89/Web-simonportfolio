@@ -1,0 +1,21 @@
+Testing folder 0.1
+
+Hi There,
+
+This folder is created to dump testing pages, PHP code and whatever else.
+
+
+0.1 - (27-02-2012)
+
+m_login.php created
+	Mix of Rick's orignal login page and a small link to lgsci.php.
+
+lgsci.php created
+	PHP code for the login, that's surposed to link to the database. Running into problems.
+
+lg_success.php created
+	Success page for after m_login.php has worked. Not working because of lgsci.php problems.
+	
+
+
+	
